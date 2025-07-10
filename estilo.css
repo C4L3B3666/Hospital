@@ -82,6 +82,25 @@
     transform: rotate(45deg);
 }
 
+.botao_menu_mobile {
+    display: none;
+}
+
+#menu_hamburguer {
+    display: flex;
+    background: red;
+    padding: .2rem;
+    flex-direction: column;
+}
+
+#menu_hamburguer .linha_bar {
+    background: #0e9ce9;
+    width: 36px;
+    margin: 2px;
+    height: 5px;
+}
+
+
 #main_content {
     width: 100vw;
     height: 100vh;
@@ -165,6 +184,15 @@
     .opcoes_menu_mobile {
         display: block;
     }
+
+    .botao_menu_desktop {
+        display: none;
+    }
+
+    .botao_menu_mobile {
+        display: block;
+    }
+
 
     #nav_menu_botoes .botao_secundario {
         display: none;
