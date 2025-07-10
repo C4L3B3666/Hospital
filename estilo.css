@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    width: 97%;
+    height: 5rem;
+    display: flex; 
+    z-index: 9999;
+    position: fixed;
+    align-items: center;
+    padding: .1rem 4rem;
+    margin: 1rem 1.5rem;
+    backdrop-filter: blur(2px);
+    justify-content: space-between;
+}
+
+#logo_menu {
+    width: 150px;
+}
+
+#nav_opcoes_menu {
+    gap: 2rem;
+    display: flex;
+}
+
+#nav_opcoes_menu  .opcoes_menu {
+    color: white;
+    font-size: 11pt;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+#nav_opcoes_menu  .opcoes_menu:hover {
+    color:#0e9ce9;
+}
+
+#nav_menu_botoes {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.botao {
+    color: white;
+    cursor: pointer;
+    font-size: 11pt;
+    font-weight: 500;
+    padding: .4rem 1rem;
+    border-radius: 9999px;
+    background: #0977b2;
+    border: 2px solid #0977b2;
+    box-shadow: 0 0 14px #0977b2;
+    font-family: "Roboto", sans-serif;
+}
+
+.botao_secundario {
+    color: #0e9ce9;
+    box-shadow: none;
+    background: transparent;
+    border: 2px solid transparent;
+    transition: all .3s;
+}
+
+.botao_secundario:hover {
+    color: white;
+    background: #0977b2;
+    border: 2px solid #0977b2;
+    box-shadow: 0 0 14px #0977b2;
+}
+
+.icone_rotate {
+    transform: rotate(45deg);
+}
+
+#main_content {
+    width: 100vw;
+    height: 100vh;
+    background: center / cover url('img/img1.jpg') no-repeat;
+    
+}
+
+#div_main_content {
+    display: flex;
+    height: 100vh;
+    padding-inline: 4rem;
+    gap: 2rem;
+    width: 100vw;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    align-items: center;
+    justify-content: center;
+    background:rgba(25, 24, 24, 0.7);
+    flex-direction: column;
+}
+
+#nav_texto_home {
+    width: 60%;
+}
+
+#titulo_home {
+    color: white;
+    font-size: 45pt;
+    font-family: "Inter", sans-serif;
+}
+
+#texto_home {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
