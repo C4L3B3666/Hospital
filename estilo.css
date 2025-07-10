@@ -158,6 +158,10 @@
         background:rgba(25, 24, 24, 0.81);
     }
 
+    #div_main_content {5
+        backdrop-filter: blur(1.5px);5
+    }
+
     .opcoes_menu_mobile {
         display: block;
     }
@@ -170,6 +174,8 @@
         width: 95%;
     }
 
-
+    #titulo_home {
+        font-size: 30pt;
+    }
 
 }
