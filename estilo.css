@@ -145,6 +145,6 @@
         flex-direction: column;
         justify-content: space-around;
         backdrop-filter: blur(10px);
-        background:rgba(25, 24, 24, 0.69);
+        background:rgba(25, 24, 24, 0.81);
     }
 }
