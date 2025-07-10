@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@
     z-index: 9999;
     position: fixed;
     align-items: center;
-    padding: .1rem 4rem;
+    padding: 0 4rem;
     margin: 1rem 1.5rem;
     backdrop-filter: blur(2px);
     justify-content: space-between;
@@ -100,7 +100,10 @@
 }
 
 #nav_texto_home {
+    gap: 1rem;
     width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 #titulo_home {
@@ -109,7 +112,39 @@
     font-family: "Inter", sans-serif;
 }
 
+.texto_personalizado {
+    padding: .1rem;
+    background: #0977b2;
+    font-family: "Dancing Script", sans-serif;
+}
+
 #texto_home {
+    color: white;
     font-weight: 300;
     font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    #menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    #logo_menu {
+        width: 130px;
+    }
+
+    #nav_opcoes_menu {
+        top: 0;
+        height: 100vh;
+        background: red;
+        right: 0;
+        width: 50vw;
+        align-items: center;
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-around;
+        backdrop-filter: blur(10px);
+        background:rgba(25, 24, 24, 0.69);
+    }
 }
