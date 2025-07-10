@@ -88,16 +88,16 @@
 
 #menu_hamburguer {
     display: flex;
-    background: red;
     padding: .2rem;
     flex-direction: column;
 }
 
 #menu_hamburguer .linha_bar {
-    background: #0e9ce9;
-    width: 36px;
+    width: 40px;
     margin: 2px;
-    height: 5px;
+    height: 4px;
+    border-radius: 9999px;
+    background: #0e9ce9;
 }
 
 
@@ -192,7 +192,6 @@
     .botao_menu_mobile {
         display: block;
     }
-
 
     #nav_menu_botoes .botao_secundario {
         display: none;
