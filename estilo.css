@@ -87,7 +87,7 @@
 }
 
 #menu_hamburguer {
-    display: flex;
+    display: none;
     padding: .2rem;
     flex-direction: column;
 }
@@ -177,8 +177,8 @@
         background:rgba(25, 24, 24, 0.81);
     }
 
-    #div_main_content {5
-        backdrop-filter: blur(1.5px);5
+    #div_main_content {
+        backdrop-filter: blur(1.5px);
     }
 
     .opcoes_menu_mobile {
@@ -191,6 +191,10 @@
 
     .botao_menu_mobile {
         display: block;
+    }
+
+    #menu_hamburguer {
+        display: flex;
     }
 
     #nav_menu_botoes .botao_secundario {
