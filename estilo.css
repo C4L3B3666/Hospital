@@ -9,8 +9,8 @@
 #menu {
     width: 97%;
     height: 5rem;
+    z-index: 100;
     display: flex; 
-    z-index: 9999;
     position: fixed;
     align-items: center;
     padding: 0 4rem;
@@ -34,6 +34,10 @@
     font-weight: 500;
     text-decoration: none;
     font-family: "Inter", sans-serif;
+}
+
+.opcoes_menu_mobile {
+    display:none;
 }
 
 #nav_opcoes_menu  .opcoes_menu:hover {
@@ -128,23 +132,44 @@
     #menu {
         width: 100%;
         margin: 0;
+        padding: 0 1rem;
     }
 
     #logo_menu {
         width: 130px;
     }
 
+    #div_main_content {
+        padding-inline: 1rem;
+    }
+
     #nav_opcoes_menu {
         top: 0;
-        height: 100vh;
-        background: red;
         right: 0;
         width: 50vw;
-        align-items: center;
+        height: 100vh;
+        background: red;
         position: absolute;
+        align-items: center;
         flex-direction: column;
-        justify-content: space-around;
+        transform: translateX(100%);
         backdrop-filter: blur(10px);
+        justify-content: space-around;
         background:rgba(25, 24, 24, 0.81);
     }
+
+    .opcoes_menu_mobile {
+        display: block;
+    }
+
+    #nav_menu_botoes .botao_secundario {
+        display: none;
+    }
+
+    #nav_texto_home {
+        width: 95%;
+    }
+
+
+
 }
