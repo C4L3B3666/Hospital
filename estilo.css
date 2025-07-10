@@ -181,7 +181,7 @@
         backdrop-filter: blur(15px);
         justify-content: space-around;
         transition: all .3s ease-in;
-        background:rgba(25, 24, 24, 0.81);
+        background:rgba(25, 24, 24, 0.91);
     }
 
     #div_main_content {
