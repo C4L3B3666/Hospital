@@ -7,9 +7,9 @@
 }
 
 #menu {
+    z-index: 1;
     width: 97%;
     height: 5rem;
-    z-index: 100;
     display: flex; 
     position: fixed;
     align-items: center;
@@ -89,6 +89,7 @@
 #menu_hamburguer {
     display: none;
     padding: .2rem;
+    cursor: w-reize;
     flex-direction: column;
 }
 
@@ -155,6 +156,7 @@
     }
 
     #logo_menu {
+        z-index: 2;
         width: 130px;
     }
 
@@ -162,18 +164,23 @@
         padding-inline: 1rem;
     }
 
+    #menu.ativo #nav_opcoes_menu {
+        transform: translateX(0%);
+    }
+
     #nav_opcoes_menu {
         top: 0;
         right: 0;
-        width: 50vw;
+        width: 70vw;
         height: 100vh;
         background: red;
         position: absolute;
         align-items: center;
         flex-direction: column;
         transform: translateX(100%);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(15px);
         justify-content: space-around;
+        transition: all .3s ease-in;
         background:rgba(25, 24, 24, 0.81);
     }
 
@@ -194,6 +201,7 @@
     }
 
     #menu_hamburguer {
+        z-index: 2;
         display: flex;
     }
 
