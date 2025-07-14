@@ -224,6 +224,68 @@
     font-family: "Inter", sans-serif;
 }
 
+.div_contet_img_motivo_lateral {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_laterais_motivos {
+    display: flex;
+    height: 500px;
+    margin: 2px;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div_laterais_motivos_esquerda {
+    bottom: 3rem;
+}
+
+.card_motivo {
+    padding: 8px;
+    padding-block: 10px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    background:rgba(9, 119, 178, 0.03);
+}
+
+.card_motivo div:nth-child(1) {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.card_motivo div:nth-child(1) .icone_motivo {
+    font-size: 29pt;
+    color: #0977B2;
+}
+
+.card_motivo div:nth-child(1) .titulo_motivo {
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.card_motivo div:nth-child(1) .titulo_motivo {
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.card_motivo div:nth-child(2) p {
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+}
+
+#img_motivo {
+    width: 700px;
+}
+
 @media screen and (max-width: 768px) {
     #menu {
         margin: 0;
