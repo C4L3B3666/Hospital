@@ -303,6 +303,14 @@
         scroll-snap-align: start;
     }   
 
-    .div_content_cards_servicos::::-webkit-scrollbar
+    .div_content_cards_servicos::-webkit-scrollbar {
+        background: white;
+        height: .5rem;
+    }
+    .div_content_cards_servicos::-webkit-scrollbar-thumb {
+        background: #0977B2;
+        border-radius: 9999px;
+        box-shadow: 0 0 14px #0977B2;
+    }
 
 }
