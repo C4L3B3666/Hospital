@@ -396,6 +396,7 @@
 
     .card_motivo div:nth-child(1) .icone_motivo {
         font-size: 17pt;
+        color: white;
     }
 
     .card_motivo div:nth-child(1) .titulo_motivo {
@@ -403,17 +404,35 @@
     }
 
     .card_motivo {
-        width: 10rem;
+        width: 9rem;
         margin: 1px;
         top: 0;
         position: absolute;
         text-align: center;
-        background:rgba(9, 119, 178, 0.52);
-        background: red;
+        background:rgba(9, 119, 178, 0.86);
+    }
+
+    .card_motivo_1 {
+        right: 3.5rem;
+        top: 2rem;
+    }
+
+    .card_motivo_2 {
+        left: 3.5rem;
+        top: 8.5rem;
+    }
+    .card_motivo_3 {
+        right: 3.5rem;
+        top: -7rem;
+    }
+    .card_motivo_4 {
+        left: 1rem;
+        top: -7rem;
     }
 
     .card_motivo div:nth-child(2) p {
         font-size: 11pt;
+        color: white;
     }      
 
 
