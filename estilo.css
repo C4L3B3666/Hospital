@@ -198,8 +198,8 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    border: 2px solid #0977b2;
     justify-content: space-around;
+    background:rgba(9, 119, 178, 0.15);
 }
 
 .card_servico .icone_servico {
