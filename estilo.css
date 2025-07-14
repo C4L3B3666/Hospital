@@ -198,8 +198,14 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    box-shadow: 0 0 4px #0977B2;
     justify-content: space-around;
-    background:rgba(9, 119, 178, 0.15);
+    background:rgba(9, 119, 178, 0.11);
+}
+
+.card_servico:hover {
+    cursor: pointer;
+    background:rgba(9, 119, 178, 0.25);
 }
 
 .card_servico .icone_servico {
@@ -293,6 +299,7 @@
     }
     .div_content_cards_servicos {
         overflow-x: auto;
+        gap: 1rem;
         padding-left: 10rem;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
