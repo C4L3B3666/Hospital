@@ -270,12 +270,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-.card_motivo div:nth-child(1) .titulo_motivo {
-    font-size: 13pt;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-}
-
 .card_motivo div:nth-child(2) p {
     font-weight: 300;
     font-family: "Inter", sans-serif;
@@ -391,6 +385,36 @@
     #img_motivo {
         width: 500px;
     }
+
+    .div_laterais_motivos {
+        height: auto;
+    }
+
+    .card_motivo div:nth-child(1) {
+        flex-direction: column;
+    }
+
+    .card_motivo div:nth-child(1) .icone_motivo {
+        font-size: 17pt;
+    }
+
+    .card_motivo div:nth-child(1) .titulo_motivo {
+        font-size: 11pt;
+    }
+
+    .card_motivo {
+        width: 10rem;
+        margin: 1px;
+        top: 0;
+        position: absolute;
+        text-align: center;
+        background:rgba(9, 119, 178, 0.52);
+        background: red;
+    }
+
+    .card_motivo div:nth-child(2) p {
+        font-size: 11pt;
+    }      
 
 
 }
