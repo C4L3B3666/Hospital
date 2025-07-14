@@ -308,6 +308,7 @@
     .card_servico {
         flex-shrink: 0;
         scroll-snap-align: start;
+        margin-block-end: 1rem;
     }   
 
     .div_content_cards_servicos::-webkit-scrollbar {
