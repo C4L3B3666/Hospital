@@ -304,6 +304,51 @@
     justify-content: center;
 }
 
+#div_content_card_equipe {
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#div_content_card_equipe .card_equipe {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    margin: 8px;
+    width: 320px;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    transition: transform .3s;
+    border: 2px solid #0977b26c;   
+}
+
+#div_content_card_equipe .card_equipe:hover {
+    transform: scale(1.05);
+}
+
+#div_content_card_equipe .div_card_equipe_img img {
+    width: 300px;
+}
+
+#div_content_card_equipe .div_card_equipe_nome {
+    font-size: 16pt;
+    font-family: "Roboto", sans-serif;
+}
+
+#div_content_card_equipe .div_card_equipe_cargo {
+    padding-block: .2rem;
+    color: #0977B2;
+    font-family: "Inter", sans-serif;
+}
+
+#div_content_card_equipe .div_card_equipe_texto {
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+}
 
 @media screen and (max-width: 768px) {
     #menu {
@@ -381,8 +426,10 @@
 
     .div_content_cards_servicos {
         gap: 1rem;
+        margin: auto;
         overflow-x: auto;
-        padding-left: 12rem;
+        position: relative;
+        width: max-content;
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
     }
@@ -464,5 +511,16 @@
     .div_conteudo_inicio_2 {
         height: max-content;
     }
+    
+    #div_content_card_equipe {
+        flex-direction: column;
+    }
+
+    #div_content_card_equipe .card_equipe {
+        top: 4.5rem;  
+        position: sticky;
+        background: white;
+    }
+
 
 }
